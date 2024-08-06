@@ -1,2 +1,4 @@
 # Danieldev.com
-Portfólio
+Portfólio em Desenvolvimento
+
+Futuras implementações: projetos, melhoria visual e de formulário 
