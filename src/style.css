@@ -1,3 +1,4 @@
+/* Resetando estilos padrão */
 * {
     margin: 0;
     padding: 0;
@@ -10,42 +11,145 @@
 }
 
 body {
-    background-color: #010110;
+    background-color: #222531;
     color: #FFFFFF;
-    border-radius: 3px;
+    font-size: 15.3px;
 }
 
-a:link {
-    text-decoration: none;
+a:link, a:visited {
+    color: #ddd;
 }
 
-div {
-    border-color: red;
+a:hover {
+    color: #0905A0;
 }
 
-nav {
-    max-width: 80%;
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-}
-
-.indice, footer {
-    text-align: center;
-    background-color: #50D0B0;
-}
-
-.indice {
-    flex-direction: row;
-}
-
-.apresentacao {
-    background-color: #3e4cF0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+a:active {
     color: #a31717;
 }
 
-.logo {
-    width: 10%;
-    height: 10%;
+header {
+    justify-content: space-between;
+    background-color: #505050;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    max-height: 50px;
+}
+
+header div {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #04A6C2;
+}
+
+section {
+    padding: 20px;
+}
+
+#sobre {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+#sobre img {
+    max-width: 200px;
+    width: 50%;
+    max-height: 200px;
+    margin-right: 20px;
+}
+
+#sobre .content {
+    width: 50%;
+    padding-left: 50px;
+}
+
+#projetos .projeto {
+    background-color: #303030;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#projetos .projeto h2 {
+    margin-bottom: 10px;
+}
+
+#contatos ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+#contatos ul li {
+    margin: 10px;
+}
+
+#contatos ul li img {
+    height: 50px;
+}
+
+footer {
+    background-color: #505050;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .feedback {
+    padding-top: 20px;
+}
+
+footer .feedback p {
+    margin-bottom: 10px;
+}
+
+footer form {
+    margin-top: 20px;
+}
+
+footer form label, footer form textarea, footer form button {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+}
+
+footer form textarea {
+    resize: vertical;
+}
+
+footer form button {
+    background-color: #199cb4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer form button:hover {
+    background-color: #145fb0;
+}
+
+footer form textarea {
+    background-color: #F0F0F0;
 }
