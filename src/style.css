@@ -50,18 +50,8 @@ header div {
     font-size: 15px;
 }
 
-#contatos ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
-#contatos ul li {
-    margin: 10px;
-}
-
-#contatos ul li img {
-    height: 50px;
+.pad_10 {
+    padding-left: 10px;
 }
 
 footer {
